@@ -411,6 +411,21 @@
   font-size: 1.1rem;
 }
 
+.services__card a {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #b69378;
+  position: relative;
+  top: 390px;
+  left: 255px;
+  font-size: 1rem;
+  z-index: 5;
+  text-decoration: none;
+}
+
 .services__card button {
   color: white;
   padding: 10px 20px;
@@ -440,6 +455,18 @@
   flex-wrap: wrap;
 }
 
+.examples__container h1 {
+  background-color: #b69378;
+  background-image: linear-gradient(to top, #b69378 0%, #f7ad94 100%);
+  background-size: 100%;
+  margin-bottom: 5rem;
+  margin: 2.5rem;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 .web-design__examples {
   display: flex;
   flex-direction: row;
@@ -457,10 +484,18 @@
   margin: 1rem;
   height: 100px;
   width: 300px;
-  background-image: linear-gradient(to top, #b69378 0%, #f7ad94 100%);
+  background-image: linear-gradient(to top, white 0%, #5b85a6 100%);
   background-size: cover;
   padding: 20px;
   align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.examples__card a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .social__icon--link {
