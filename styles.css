@@ -382,7 +382,7 @@
   height: 525px;
   width: 400px;
   border-radius: 4px;
-  background-image: url(/images/codePic.jpg);
+  background-image: url(images/codePic.jpg);
   background-size: cover;
 }
 
@@ -391,7 +391,7 @@
   height: 525px;
   width: 400px;
   border-radius: 4px;
-  background-image: url(/images/pplCode.jpg);
+  background-image: url(images/pplCode.jpg);
   background-size: cover;
 }
 
